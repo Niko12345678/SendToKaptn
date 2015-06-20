@@ -57,6 +57,7 @@ function renderTime(statusText) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+	
   getCurrentTabUrl(function(url) {
     renderUrl(url);
   });
